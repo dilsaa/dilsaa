@@ -83,12 +83,14 @@
         <!-- Logo Section -->
         <div class="w-[80px] lg:w-[5%] h-[80px] lg:h-[120px] bg-[#f0ece1] border-r border-[#292929] flex items-center justify-center shrink-0 cursor-pointer nav-logo group relative"
             data-target="about">
-           <div class="relative w-[32px] h-[62px] lg:w-[39px] lg:h-[76px]">
-                <img src="assets/dilan_logo_.png" alt="Logo" class="w-full h-full object-cover rounded-none"/>
+            <div class="relative w-[32px] h-[62px] lg:w-auto lg:h-auto lg:p-[8px] flex items-center justify-center">
+                <img src="assets/dilan_logo_.png" alt="Logo"
+                    class="w-full h-full object-contain rounded-none lg:max-w-[calc(100%-16px)] lg:max-h-[calc(100%-16px)]"
+                    style="max-width: 100%; max-height: 100%;" />
             </div>
 
             <!-- Tooltip (Positioned relative to this container) -->
-           <!-- Tooltip -->
+            <!-- Tooltip -->
             <div
                 class="tooltip-content absolute top-full left-1/2 -translate-x-1/2 px-1.5 py-[2px] py-1 bg-[#080806] text-white text-[7px] font-['Inter',sans-serif] rounded-[3px] whitespace-nowrap hidden lg:block z-[200]">
                 About Me
@@ -112,19 +114,21 @@
     <main class="flex-1 flex flex-col pb-[80px] lg:pb-0">
 
         <!-- About Page -->
-         <section id="about" class="page-section flex flex-col w-full flex-1">
+        <section id="about" class="page-section flex flex-col w-full flex-1">
             <!-- Content Row -->
             <div class="flex flex-1 flex-col lg:flex-row w-full">
                 <div class="hidden lg:block w-[5%] bg-[#f0ece1] border-r border-[#292929] shrink-0"></div>
 
-              <div class="w-full lg:w-[50%] bg-[#f0ece1] p-[30px] lg:p-[50px] border-b lg:border-b-0 lg:border-r border-[#292929] flex items-center justify-center">
-                  <img src="assets/IDraw.png" class="w-[110%] h-auto object-contain" />
-              </div>
+                <div
+                    class="w-full lg:w-[50%] bg-[#f0ece1] p-[30px] lg:p-[50px] border-b lg:border-b-0 lg:border-r border-[#292929] flex items-center justify-center">
+                    <img src="assets/IDraw.png" class="w-[110%] h-auto object-contain" />
+                </div>
 
 
                 <div
                     class="w-full lg:w-[45%] bg-[#f0ece1] flex flex-col justify-center px-[40px] py-[60px] lg:pl-[8%] lg:pr-[10%] shrink-0 relative">
-                    <div class="flex items-center justify-between mb-[4px] w-full" style="justify-content: space-between;">
+                    <div class="flex items-center justify-between mb-[4px] w-full"
+                        style="justify-content: space-between;">
                         <h1 class="text-[2em] text-[#292929] leading-normal">
                             <span class="font-['Times_New_Roman',serif] font-bold">S</span><span
                                 class="font-['Times_New_Roman',serif]">elene </span><span
@@ -155,14 +159,20 @@
                             </a>
                         </div>
                     </div>
-                    <p class="lg:text-[1.1em] leading-[1.72] text-[#292929] font-['Times_New_Roman',serif]" style="text-align: justify;">
-                      I write at the intersection of instinct and intellect. Inspired by the philosophies of antiquity and the stark beauty of the natural world, 
-                        I seek to map the unsettling emotions we struggle to name. My stories are built on the belief that the deepest truths require the simplest
+                    <p class="lg:text-[1.1em] leading-[1.72] text-[#292929] font-['Times_New_Roman',serif]"
+                        style="text-align: justify;">
+                        I write at the intersection of instinct and intellect. Inspired by the philosophies of antiquity
+                        and the stark beauty of the natural world,
+                        I seek to map the unsettling emotions we struggle to name. My stories are built on the belief
+                        that the deepest truths require the simplest
                         language.
 
-                        Following a PhD in Behavioral Genetics and Evolution, I continue to observe the quiet rhythms of our species, capturing them in a blend of 
-                        introspective prose and magical realism. Based in Oslo and active within its vibrant writing community as a board member of the Oslo Writers 
-                        League, I am currently refining my second longform project, drafting flash stories, and collaboratively working on a children’s picture book. 
+                        Following a PhD in Behavioral Genetics and Evolution, I continue to observe the quiet rhythms of
+                        our species, capturing them in a blend of
+                        introspective prose and magical realism. Based in Oslo and active within its vibrant writing
+                        community as a board member of the Oslo Writers
+                        League, I am currently refining my second longform project, drafting flash stories, and
+                        collaboratively working on a children’s picture book.
                         Above all, my pen stands as a fierce advocate for both human and animal rights.
                     </p>
                 </div>
@@ -182,65 +192,73 @@
             <div class="flex flex-1 flex-col lg:flex-row w-full">
                 <div class="hidden lg:block w-[5%] bg-[#f0ece1] border-r border-[#292929] shrink-0"></div>
 
-               <div class="w-full lg:w-[50%] bg-[#f0ece1] pl-[72px] pr-[40px] py-[60px] lg:pl-[180px] lg:pr-[96px] border-b lg:border-b-0 lg:border-r border-[#292929] flex flex-col justify-end">
-                   <div class="flex flex-col gap-[6px] w-full max-w-[520px] ml-[10px] lg:ml-[40px]">
-                       <p class="text-[20px] lg:text-[20px] text-[#292929] font-['Times_New_Roman',serif] font-bold italic mb-[10px]">
-                           Selected Short Prose & Poetry:
-                       </p>
+                <div
+                    class="w-full lg:w-[50%] bg-[#f0ece1] pl-[72px] pr-[40px] py-[60px] lg:pl-[180px] lg:pr-[96px] border-b lg:border-b-0 lg:border-r border-[#292929] flex flex-col justify-end">
+                    <div class="flex flex-col gap-[6px] w-full max-w-[520px] ml-[10px] lg:ml-[40px]">
+                        <p
+                            class="text-[20px] lg:text-[28px] text-[#292929] font-['Times_New_Roman',serif] font-bold italic mb-[10px]">
+                            Selected Short Prose & Poetry:
+                        </p>
 
-                        <div class="font-['Cormorant_Garamond',serif] text-[16px] lg:text-[16px] text-[#444]">
-                              <a href="https://theorangebee.substack.com/" target="_blank"
-                                rel="noopener noreferrer"
+                        <div class="font-['Cormorant_Garamond',serif] text-[16px] lg:text-[20px] text-[#444]">
+                            <a href="https://theorangebee.substack.com/" target="_blank" rel="noopener noreferrer"
                                 class="block mb-0 leading-[1.5] hover:text-[#000] transition-colors">
                                 <span class="font-bold hover:underline decoration-1 underline-offset-4">Tail-chase
                                 </span>
-                                <span>| </span><span class="italic">The Orange and Bee</span><span> | Accepted: Exp, 2026</span>
+                                <span>| </span><span class="italic">The Orange and Bee</span><span> | Accepted: Exp,
+                                    2026</span>
                             </a>
-                              <a href="https://www.oslowritersleague.no/publications/2026-good-vibes-only" target="_blank"
+                            <a href="https://www.oslowritersleague.no/publications/2026-good-vibes-only" target="_blank"
                                 rel="noopener noreferrer"
                                 class="block mb-0 leading-[1.5] hover:text-[#000] transition-colors">
-                                <span class="font-bold hover:underline decoration-1 underline-offset-4">Of The Things That Worked
+                                <span class="font-bold hover:underline decoration-1 underline-offset-4">Of The Things
+                                    That Worked
                                 </span>
-                                <span>| </span><span class="italic">Oslo Writers League Anthology, 2026</span><span> | Accepted: Nov 7, 2026</span>
+                                <span>| </span><span class="italic">Oslo Writers League Anthology, 2026</span><span> |
+                                    Accepted: Nov 7, 2026</span>
                             </a>
-                              <a href="https://theairgonautblog.wordpress.com/2025/10/14/wellspring/" target="_blank"
+                            <a href="https://theairgonautblog.wordpress.com/2025/10/14/wellspring/" target="_blank"
                                 rel="noopener noreferrer"
                                 class="block mb-0 leading-[1.5] hover:text-[#000] transition-colors">
                                 <span class="font-bold hover:underline decoration-1 underline-offset-4">Wellspring
                                 </span>
                                 <span>| </span><span class="italic">The Airgonaut</span><span> | Oct. 14, 2025</span>
                             </a>
-                                <a href="https://www.suddenlyandwithoutwarning.com/subtler-edge-phasings/" target="_blank"
+                            <a href="https://www.suddenlyandwithoutwarning.com/subtler-edge-phasings/" target="_blank"
                                 rel="noopener noreferrer"
                                 class="block mb-0 leading-[1.5] hover:text-[#000] transition-colors">
-                                <span class="font-bold hover:underline decoration-1 underline-offset-4">Subtler Edge, Phasings, and Other Notes on Why We Are Alone
+                                <span class="font-bold hover:underline decoration-1 underline-offset-4">Subtler Edge,
+                                    Phasings, and Other Notes on Why We Are Alone
                                 </span>
-                                <span>| </span><span class="italic">Suddenly, and without warning</span><span> | Aug. 02, 2025</span>
-                            </a> 
-                              <a href="https://www.mcneese.edu/thereview/thalassophilia/" target="_blank"
+                                <span>| </span><span class="italic">Suddenly, and without warning</span><span> | Aug.
+                                    02, 2025</span>
+                            </a>
+                            <a href="https://www.mcneese.edu/thereview/thalassophilia/" target="_blank"
                                 rel="noopener noreferrer"
                                 class="block mb-0 leading-[1.5] hover:text-[#000] transition-colors">
                                 <span class="font-bold hover:underline decoration-1 underline-offset-4">Thalassophilia
                                 </span>
                                 <span>| </span><span class="italic">boudin</span><span> | Jul. 22, 2025</span>
                             </a>
-                           
-                          
+
+
                         </div>
                     </div>
                 </div>
 
-               <div class="w-full lg:w-[45%] bg-[#f0ece1] flex items-center justify-center px-[20px] py-[60px] lg:py-[40px] shrink-0">
-                   <img src="assets/Writings.png" class="w-[85%] max-w-[340px] lg:w-[60%] lg:max-w-[380px] max-h-[60vh] h-auto object-contain" />
-               </div>
+                <div
+                    class="w-full lg:w-[45%] bg-[#f0ece1] flex items-center justify-center px-[20px] py-[60px] lg:py-[40px] shrink-0 overflow-hidden">
+                    <img src="assets/Writings.png"
+                        class="w-[85%] max-w-[340px] lg:w-full lg:max-w-[380px] max-h-[60vh] h-auto object-contain" />
+                </div>
 
 
-            <!-- Footer -->
-            <div class="hidden lg:flex border-t border-[#292929] mt-auto shrink-0">
-                <div class="w-[5%] h-[116px] bg-[#f0ece1] border-r border-[#292929]"></div>
-                <div class="w-[50%] h-[116px] bg-[#f0ece1] border-r border-[#292929]"></div>
-                <div class="w-[45%] h-[116px] bg-[#f0ece1]"></div>
-            </div>
+                <!-- Footer -->
+                <div class="hidden lg:flex border-t border-[#292929] mt-auto shrink-0">
+                    <div class="w-[5%] h-[116px] bg-[#f0ece1] border-r border-[#292929]"></div>
+                    <div class="w-[50%] h-[116px] bg-[#f0ece1] border-r border-[#292929]"></div>
+                    <div class="w-[45%] h-[116px] bg-[#f0ece1]"></div>
+                </div>
         </section>
 
         <!-- Blog Page -->
@@ -331,10 +349,11 @@
                 </div>
 
                 <!-- Update Sticky Top to match actual Header height 120px -->
-              <div class="w-full lg:w-[45%] bg-[#f0ece1] shrink-0 lg:sticky lg:top-[120px] flex items-center justify-center py-[40px] lg:py-[24px] px-[20px]">
-                  <img src="assets/blog.png" 
-                      class="w-[75%] max-w-[520px] max-h-[calc(100vh-180px)] h-auto object-contain opacity-70" />
-</div>
+                <div
+                    class="w-full lg:w-[45%] bg-[#f0ece1] shrink-0 lg:sticky lg:top-[120px] flex items-center justify-center py-[40px] lg:py-[24px] px-[20px]">
+                    <img src="assets/blog.png"
+                        class="w-[75%] max-w-[520px] max-h-[calc(100vh-180px)] h-auto object-contain opacity-70" />
+                </div>
 
             </div>
 
@@ -353,48 +372,53 @@
                 <div class="hidden lg:block w-[5%] bg-[#f0ece1] border-r border-[#292929] shrink-0"></div>
 
                 <!-- FORM (moved to the left on desktop) -->
-                <div class="w-full lg:w-[45%] bg-[#f0ece1] flex items-center justify-center px-[20px] py-[40px] md:py-[60px] lg:px-[60px] xl:px-[100px] lg:py-0">
-                    <div class="w-full max-w-[996px] bg-[#ded9d1] backdrop-blur-[190px] rounded-[15px] md:rounded-[20px] p-[30px] md:p-[40px] lg:p-[40px]">
+                <div
+                    class="w-full lg:w-[50%] bg-[#f0ece1] flex items-center justify-center px-[20px] py-[40px] md:py-[60px] lg:px-[60px] xl:px-[100px] lg:py-0 border-b lg:border-b-0 lg:border-r border-[#292929]">
+                    <div
+                        class="w-full max-w-[996px] bg-[#ded9d1] backdrop-blur-[190px] rounded-[15px] md:rounded-[20px] p-[30px] md:p-[40px] lg:p-[40px]">
                         <div class="mb-[20px] md:mb-[30px]">
-                            <h2 class="font-['Cormorant_Garamond',serif] font-semibold text-[24px] md:text-[26px] lg:text-[30px] text-[#080806] tracking-[-0.6px] mb-[8px]">
+                            <h2
+                                class="font-['Cormorant_Garamond',serif] font-semibold text-[24px] md:text-[26px] lg:text-[30px] text-[#080806] tracking-[-0.6px] mb-[8px]">
                                 Let's connect constellations</h2>
-                            <p class="font-['Cormorant_Garamond',serif] text-[14px] md:text-[15px] lg:text-[16px] text-[#080806] opacity-80 tracking-[-0.16px]">
-          Let's align our constellations! Reach out and let the magic of collaboration illuminate our skies.</p>
+                            <p
+                                class="font-['Cormorant_Garamond',serif] text-[14px] md:text-[15px] lg:text-[16px] text-[#080806] opacity-80 tracking-[-0.16px]">
+                                Let's align our constellations! Reach out and let the magic of collaboration illuminate
+                                our skies.</p>
                         </div>
 
-      <form action="https://formspree.io/f/xpqqpzop" method="POST"
-        class="flex flex-col gap-[12px] md:gap-[14px]">
-        <div class="flex flex-col sm:flex-row gap-[12px] md:gap-[14px]">
-          <input type="text" name="lastName" placeholder="Last Name"
-            class="flex-1 bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]"
-            required />
-          <input type="text" name="firstName" placeholder="First Name"
-            class="flex-1 bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]"
-            required />
-        </div>
-        <input type="email" name="email" placeholder="Email"
-          class="w-full bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]"
-          required />
-        <input type="tel" name="phone" placeholder="Phone Number"
-          class="w-full bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]" />
-        <textarea name="message" placeholder="Message" rows="4"
-          class="w-full bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] resize-none focus:outline-none focus:ring-2 focus:ring-[#080806]"
-          required></textarea>
-        <button type="submit"
-          class="w-full bg-[#080806] text-white rounded-[5px] px-[10px] py-[12px] font-['Inter',sans-serif] font-medium text-[15px] tracking-[-0.15px] hover:bg-[#1a1a1a] transition-colors active:scale-[0.98]">
-          Send it to the moon
-        </button>
-      </form>
-    </div>
-  </div>
+                        <form action="https://formspree.io/f/xpqqpzop" method="POST"
+                            class="flex flex-col gap-[12px] md:gap-[14px]">
+                            <div class="flex flex-col sm:flex-row gap-[12px] md:gap-[14px]">
+                                <input type="text" name="lastName" placeholder="Last Name"
+                                    class="flex-1 bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]"
+                                    required />
+                                <input type="text" name="firstName" placeholder="First Name"
+                                    class="flex-1 bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]"
+                                    required />
+                            </div>
+                            <input type="email" name="email" placeholder="Email"
+                                class="w-full bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]"
+                                required />
+                            <input type="tel" name="phone" placeholder="Phone Number"
+                                class="w-full bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] focus:outline-none focus:ring-2 focus:ring-[#080806]" />
+                            <textarea name="message" placeholder="Message" rows="4"
+                                class="w-full bg-[rgba(255,255,255,0.05)] border border-[#080806] rounded-[5px] px-[14px] py-[12px] font-['Cormorant_Garamond',serif] text-[15px] text-[#292929] tracking-[-0.15px] resize-none focus:outline-none focus:ring-2 focus:ring-[#080806]"
+                                required></textarea>
+                            <button type="submit"
+                                class="w-full bg-[#080806] text-white rounded-[5px] px-[10px] py-[12px] font-['Inter',sans-serif] font-medium text-[15px] tracking-[-0.15px] hover:bg-[#1a1a1a] transition-colors active:scale-[0.98]">
+                                Send it to the moon
+                            </button>
+                        </form>
+                    </div>
+                </div>
 
-  <!-- IMAGE (moved to the right on desktop) -->
-  <div
-    class="w-full lg:w-[50%] bg-[#f0ece1] p-[40px] lg:p-[60px] border-b lg:border-b-0 lg:border-l border-[#292929] flex items-center justify-center shrink-0 lg:sticky lg:top-[120px] lg:h-[calc(100vh-236px)]">
-    <img src="assets/Contact.png" alt="Flowers in a vase"
-      class="w-full max-w-[108%] h-auto lg:w-auto lg:h-auto lg:max-w-full lg:max-h-full object-contain" />
-  </div>
-</div>
+                <!-- IMAGE (moved to the right on desktop) -->
+                <div
+                    class="w-full lg:w-[45%] bg-[#f0ece1] p-[40px] lg:p-[60px] flex items-center justify-center shrink-0 lg:sticky lg:top-[120px] lg:h-[calc(100vh-236px)]">
+                    <img src="assets/Contact.png" alt="Flowers in a vase"
+                        class="w-full max-w-[108%] h-auto lg:w-auto lg:h-auto lg:max-w-full lg:max-h-full object-contain" />
+                </div>
+            </div>
 
 
             <!-- Footer -->
